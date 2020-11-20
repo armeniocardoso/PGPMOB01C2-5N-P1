@@ -35,17 +35,17 @@
 * Implementar o design de telas de aplicativos, baseando-se em um protótipo ou referência de outro app
 * Desenvolver apps com interfaces adaptadas a múltiplos formatos de telas..
 
-[forks-shield]: https://img.shields.io/github/forks/armeniocardoso/20GRPEDS01BDJ501
-[forks-url]: https://github.com/armeniocardoso/20GRPEDS01BDJ501/forks
+[forks-shield]: https://img.shields.io/github/forks/armeniocardoso/PGPMOB01C2-5N-P1
+[forks-url]: https://github.com/armeniocardoso/PGPMOB01C2-5N-P1/forks
 
-[watchers-shield]: https://img.shields.io/github/watchers/armeniocardoso/20GRPEDS01BDJ501
-[watchers-url]: https://github.com/armeniocardoso/20GRPEDS01BDJ501/watchers
+[watchers-shield]: https://img.shields.io/github/watchers/armeniocardoso/PGPMOB01C2-5N-P1
+[watchers-url]: https://github.com/armeniocardoso/PGPMOB01C2-5N-P1/watchers
 
-[issues-shield]: https://img.shields.io/github/issues/armeniocardoso/20GRPEDS01BDJ501
-[issues-url]: https://github.com/armeniocardoso/20GRPEDS01BDJ501/issues
+[issues-shield]: https://img.shields.io/github/issues/armeniocardoso/PGPMOB01C2-5N-P1
+[issues-url]: https://github.com/armeniocardoso/PGPMOB01C2-5N-P1/issues
 
-[license-shield]: https://img.shields.io/github/license/armeniocardoso/20GRPEDS01BDJ501
-[license-url]: https://github.com/armeniocardoso/20GRPEDS01BDJ501/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/armeniocardoso/PGPMOB01C2-5N-P1
+[license-url]: https://github.com/armeniocardoso/PGPMOB01C2-5N-P1/blob/master/LICENSE.txt
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/armeniocardoso

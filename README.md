@@ -1,14 +1,14 @@
+![Logo do Infnet](imagens/logo.png)
+# Fundamentos do Desenvolvimento Android
+### ESTI - Escola Superior de Tecnologia da Informação
+### Bloco Desenvolvimento Android
+### Pós-Graduação MIT em Desenvolvimento Mobile - 2020/4
+
 [![Watchers][watchers-shield]][watchers-url]
 [![Forks][forks-shield]][forks-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
-![Logo do Infnet](imagens/logo.png)
-### ESTI - Escola Superior de Tecnologia da Informação
-
-# Pós-Graduação MIT em Desenvolvimento Mobile
-## Plataforma Android - 2020/4
 
 ## Competências Trabalhadas na Disciplina
 * Desenvolver com a linguagem Kotlin

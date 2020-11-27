@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tela1Fragment"
+        android:icon="@drawable/about_kde"
+        android:title="Tela 1" />
+    <item
+        android:id="@+id/tela2Fragment"
+        android:icon="@drawable/add_group"
+        android:title="Tela 2" />
+    <item
+        android:id="@+id/tela3Fragment"
+        android:icon="@drawable/add_user"
+        android:title="Tela 3" />
+</menu>

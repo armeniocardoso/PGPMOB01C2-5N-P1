@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/tela1Fragment">
+
+    <fragment
+        android:id="@+id/tela1Fragment"
+        android:name="br.edu.infnet.mitmob.Tela1Fragment"
+        android:label="fragment_tela1"
+        tools:layout="@layout/fragment_tela1" />
+    <fragment
+        android:id="@+id/tela2Fragment"
+        android:name="br.edu.infnet.mitmob.Tela2Fragment"
+        android:label="fragment_tela2"
+        tools:layout="@layout/fragment_tela2" />
+    <fragment
+        android:id="@+id/tela3Fragment"
+        android:name="br.edu.infnet.mitmob.Tela3Fragment"
+        android:label="fragment_tela3"
+        tools:layout="@layout/fragment_tela3" />
+</navigation>

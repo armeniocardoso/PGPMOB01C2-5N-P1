@@ -37,16 +37,16 @@ class MainActivity : AppCompatActivity() {
         return NavigationUI.navigateUp(navController, drawerLayout)
     }
 
-/*
+
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
 
         val inflater: MenuInflater = menuInflater
         inflater.inflate(R.menu.main_menu, menu)
         return true
     }
-*/
 
-/*    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
 
         var mensagem = ""
         when(item.itemId) {
@@ -57,5 +57,5 @@ class MainActivity : AppCompatActivity() {
         }
         Toast.makeText(this, mensagem, Toast.LENGTH_SHORT).show()
         return true
-    }*/
+    }
 }

@@ -29,7 +29,7 @@
     <EditText
         android:id="@+id/txtString"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -49,7 +49,7 @@
     <EditText
         android:id="@+id/txtInteiro"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="number"
@@ -61,6 +61,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:contentDescription="Salvar Shared Preferences"
         android:text="Salvar"
         app:layout_constraintEnd_toStartOf="@+id/btnSPLer"
         app:layout_constraintHorizontal_bias="0.5"

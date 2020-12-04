@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
             val lblSPLido = this.findViewById<TextView>(R.id.lblSPLido)
             val sp = this.getSharedPreferences("mainPrefs", MODE_PRIVATE)
             lblSPLido.setText("Dado 1 = ${sp.getString("dado1", "Não Encontrado")} --- Dado 2 = ${sp.getInt("dado2", 0)}")
+            lblSPLido.contentDescription = "Eu li Dado 1 = ${sp.getString("dado1", "Não Encontrado")} --- Dado 2 = ${sp.getInt("dado2", 0)}"
             Toast.makeText(this, "Lido", Toast.LENGTH_SHORT).show()
         }
         //-----------------------------------------------

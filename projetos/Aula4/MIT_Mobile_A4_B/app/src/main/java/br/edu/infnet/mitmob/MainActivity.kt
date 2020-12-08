@@ -3,6 +3,7 @@ package br.edu.infnet.mitmob
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import androidx.core.text.isDigitsOnly
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import br.edu.infnet.mitmob.databinding.ActivityMainBinding
@@ -37,6 +38,10 @@ class MainActivity : AppCompatActivity() {
         binding.txtNome.setOnKeyListener { view, i, keyEvent ->
 
             viewmodel.nome.value = binding.txtNome.text.toString()
+            if(binding.txtNome.text.toString().isDigitsOnly()) {
+
+                viewmodel.numero.value = binding.txtNome.text.toString().toInt()
+            }
             true
         }
     }

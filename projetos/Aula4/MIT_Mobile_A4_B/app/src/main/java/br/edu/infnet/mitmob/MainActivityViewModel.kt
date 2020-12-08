@@ -9,6 +9,7 @@ class MainActivityViewModel : ViewModel() {
 
     var frase = ""
     var nome = MutableLiveData<String>()
+    var numero = MutableLiveData<Int>()
 
     init {
 

@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity(), RecycleViewItemListener {
 
     lateinit var binding: ActivityMainBinding
     lateinit var viewmodel: MainActivityViewModel
-    lateinit var dao: ContatoDAO
 
     override fun onCreate(savedInstanceState: Bundle?) {
 

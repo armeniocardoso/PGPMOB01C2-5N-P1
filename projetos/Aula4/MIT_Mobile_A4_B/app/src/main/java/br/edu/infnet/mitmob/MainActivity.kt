@@ -35,10 +35,20 @@ class MainActivity : AppCompatActivity() {
 //            binding.lblNome.setText(nome)
 //        })
         //--------------------------------------------------
-        binding.txtNome.setOnKeyListener { view, i, keyEvent ->
+/*        binding.txtNome.setOnKeyListener { view, i, keyEvent ->
 
             viewmodel.nome.value = binding.txtNome.text.toString()
             if(binding.txtNome.text.toString().isDigitsOnly()) {
+
+                viewmodel.numero.value = binding.txtNome.text.toString().toInt()
+            }
+            true
+        }*/
+        binding.txtNome.setOnFocusChangeListener { view, b ->
+
+            viewmodel.nome.value = binding.txtNome.text.toString()
+            if(binding.txtNome.text.toString().isNotBlank()
+                && binding.txtNome.text.toString().isDigitsOnly()) {
 
                 viewmodel.numero.value = binding.txtNome.text.toString().toInt()
             }
